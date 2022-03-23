@@ -1,7 +1,8 @@
 .nav-left {
-    flex: 50%;
-    padding-left: 100px;
-    display: flex;
+    flex: 100%;
+    padding: 0px auto;
+    display: inline;
+    margin: 0% auto;
 }
 
 .nav-right {
@@ -9,6 +10,16 @@
     padding-left: 900px;
     border-radius: 20px;
     display: flex;
+}
+
+.nav-button {
+    border-radius: 10px; 
+    padding:20px auto; 
+    width: 90px; 
+    margin: 15px auto; 
+    color: white;
+    background-color: black; 
+    height: 30px;
 }
 
 .background {
@@ -57,4 +68,19 @@
     width:40%;
     border-radius: 5px;
     background-color: lightgrey;   
+}
+
+.bg-nav {
+    display: flex; 
+    background-color: rgb(240, 239, 239); 
+    box-shadow: 0 0px 10px 0 black;
+}
+
+.bg-card {
+    background-color: white; 
+    margin: 50px auto; 
+    padding: 80px; 
+    width: 900px; 
+    box-shadow: 0 5px 10px 0 black; 
+    border-radius: 5px;
 }
