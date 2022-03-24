@@ -1,5 +1,5 @@
 .nav-left {
-    flex: 100%;
+    flex: 80%;
     padding: 0px auto;
     display: inline;
     margin: 0% auto;
@@ -7,7 +7,7 @@
 
 .nav-right {
     flex: 50%;
-    padding-left: 900px;
+    padding-left: 550px;
     border-radius: 20px;
     display: flex;
 }
@@ -78,7 +78,7 @@
 
 .bg-card {
     background-color: white; 
-    margin: 50px auto; 
+    margin: 30px auto; 
     padding: 80px; 
     width: 900px; 
     box-shadow: 0 5px 10px 0 black; 
