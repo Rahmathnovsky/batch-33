@@ -6,12 +6,14 @@ function submitData() {
     let phone = document.getElementById('in-phone').value
     let subject = document.getElementById('in-option').value
     let message = document.getElementById('in-message').value
+    let submit = document>getElementById('in-submit')
 
     console.log(name);
     console.log(email);
     console.log(phone);
     console.log(subject);
     console.log(message);
+    console.log(submit);
 
 
     if (name == '' ) {
@@ -24,6 +26,8 @@ function submitData() {
         return alert("Choose Subject!")
     }else if (message == '' ) {
         return alert("Message does not exist :(")
+    }else if (submit == '' ) {
+        return alert("Input Content First!")
     }
 
     let emailReceiver = 'rahmathnovskyn@mail.com'
